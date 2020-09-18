@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Manrope:wght@200;300;400;500;600;700&family=Quicksand:wght@400;500&family=Syne&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+p, ul {
+  font-family: 'Manrope', sans-serif;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #494d5f;
+  padding: .5rem 2rem;
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  z-index: 9;
+  height: 60px;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-collapse, .collapse {
+  background-color:  #494d5f;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.collapse li:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e5eaf5;
+  text-align: center;
+}
+
+.content {
+  padding: 30px;
+  margin: 0;
+}
+
+.after-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.after-underline::after {
+  content: "";
+  width: 80%;
+  position: absolute;
+  height: 2px;
+  right: -5px;
+  bottom: 3px;
+  background: #a8ff78;
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+  background: linear-gradient(to right, #78ffd6, #a8ff78);
+}
+
+#nav.nav-active {
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,152 @@
+.top {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 100px 5%;
+  padding-top: 40px;
+  width: 100%;
+  /* background: #16222A;
+  background: -webkit-linear-gradient(to top, #434343, #343a40);
+  background: linear-gradient(to top, #434343, #343a40); */
+  background: #494d5f;
+  background: -webkit-linear-gradient(to top, #8458B3, #494d5f);
+  background: linear-gradient(to top, #8458B3, #494d5f);
+  border-bottom-left-radius: 40%;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
+.members {
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease-in-out
+}
+
+.knowUs .row {
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 15px 10px;
+  padding-bottom: 0;;
+  text-align: center;
+  border-radius: 0;
+  border: none;
+}
+
+.card-body {
+  text-align: center;
+  padding: 5px;
+  margin:0;
+}
+
+.member-links {
+  margin-top: -5px;
+}
+
+.member-links i {
+  font-size: 1.5rem;
+  margin-right: 2.5px;
+}
+
+.members:hover {
+  transform: scale(1.1);
+  z-index: 8;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin: auto auto 10px;
+}
+
+.top img {
+  position: relative;
+  top: 5%;
+  width: 90%;
+  animation: swing 7s infinite ease-in-out;
+}
+
+.top-box {
+  padding: 20px;
+  color: #e5eaf5;
+}
+
+.box {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+  text-align: left;
+  position: relative;
+}
+
+.columns {
+  padding: 0;
+}
+
+.knowUs, .campaign {
+  padding: 5%;
+}
+
+.knowUs {
+  padding-bottom: 0;
+}
+
+.fa-2x {
+  margin: 0 5px;
+  color: #a0d2eb;
+  transition: 0.2s ease-in-out;
+  font-size: 2.3rem;
+}
+
+.info-img-col {
+  padding: 30px 15px;
+}
+
+.camp-col img {
+  width: 100%;
+}
+
+.info-img-col img {
+  width: 100%;
+}
+
+.info-img-col:first-child img {
+  margin-top: 50px;
+  /* border-radius: 100% 80% 90% 70%; */
+}
+
+.fa-2x:hover {
+  color: #d0bdf4;
+}
+
+.fa-2x:first-child {
+  margin-left: 0;
+}
+
+@keyframes swing {
+  0% {
+    top: 5%;
+  }
+
+  50% {
+    top: 10%;
+  }
+
+  100% {
+    top: 5%;
+  }
+}
+
+@media (max-width: 400px) {
+  .top {
+    border-radius: 0;
+  }
+}
